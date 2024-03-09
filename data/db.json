@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Full stack Chat Application",
+      "description": [
+        "Developed a chat application using React, Tailwind CSS, and Firebase for data storage and user authentication.",
+        "Implemented authentication functionality to secure user access and data.",
+        "Utilized Firebase for real-time data synchronization and storage.",
+        "Designed a responsive and user-friendly interface using Tailwind CSS.",
+        "Integrated React for efficient component-based UI development.",
+        "Ensured smooth user experience with real-time chat capabilities.",
+        "Demonstrated proficiency in frontend technologies and backend integration for a full-stack project."
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/gallery-pro-243f5.appspot.com/o/images%2F28d7c30e-fc3e-428c-a425-7336617f8aef.png?alt=media&token=7c8a9592-2b4e-4e77-8dee-acd3032a2595",
+      "demo_link": "https://chat-app-02.netlify.app/",
+      "github_link": "https://github.com/abhishek-Roy22/firebase-chatapp"
+    },
+    {
+      "id": "2",
+      "title": "Full stack Blog Application",
+      "description": [
+        "Developed a responsive blog application using React.js for the frontend, Tailwind CSS for styling, and Firebase for backend services.",
+        "Implemented user authentication features using Firebase Authentication, allowing users to securely sign up, log in, and manage their accounts.",
+        "Created a user-friendly interface for users to create, edit, and delete their blog posts, providing full control over their content.",
+        "Utilized Firebase Firestore for data storage, enabling real-time updates and seamless synchronization of blog posts across users and devices.",
+        "Integrated Tailwind CSS for consistent and modern UI design, ensuring a visually appealing and intuitive user experience."
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/gallery-pro-243f5.appspot.com/o/images%2Fdee645f4-6576-4afa-8e4a-af6484bebe29.png?alt=media&token=2f25d4e0-0e8a-4396-934e-525aee27ff30",
+      "demo_link": "https://firebase-blogpost.netlify.app/",
+      "github_link": "https://github.com/abhishek-Roy22/firebase_blog"
+    },
+    {
+      "id": "3",
+      "title": "GalleryPro",
+      "description": [
+        "Developed a photo gallery application similar to Pexels.com using React.js for the frontend, Tailwind CSS for styling, and Firebase for backend services.",
+        "Implemented user authentication features using Firebase Authentication, allowing users to securely sign up, log in, and manage their accounts.",
+        "Integrated Firebase Storage to store and manage user-uploaded images, ensuring fast and reliable access to images.",
+        "Utilized Tailwind CSS for responsive and visually appealing UI design, ensuring a seamless user experience across devices.",
+        "Implemented image upload functionality, allowing users to upload their own images to contribute to the gallery."
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/gallery-pro-243f5.appspot.com/o/images%2F8950d048-aa4a-4ef8-97ab-c7acc4f77009.png?alt=media&token=fd477e2e-95ee-42db-8e6e-62b997ddadb4",
+      "demo_link": "https://pro-img-gallery.netlify.app/",
+      "github_link": "https://github.com/abhishek-Roy22/Image_gallery"
+    },
+    {
+      "id": "4",
+      "title": "YouTube UI Clone Application",
+      "description": [
+        "Developed a YouTube UI clone using React.js for the frontend, closely resembling the design and functionality of the official YouTube website.",
+        "Implemented features such as video playback, video recommendations, search functionality, and user comments, providing a comprehensive user experience.",
+        "Utilized React Router for navigation, allowing users to seamlessly switch between different pages and videos within the application.",
+        "Integrated YouTube Data API for fetching video data, including video details, comments, and recommendations, ensuring up-to-date content.",
+        "Designed a responsive and user-friendly interface using CSS and libraries like Tailwind CSS, ensuring a consistent experience across devices.",
+        "Implemented features like dark mode and video quality settings, enhancing the user experience and customization options.",
+        "Used React Context API for managing application state, ensuring efficient data flow and component communication."
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/gallery-pro-243f5.appspot.com/o/images%2F1e01b87f-10e6-45d1-a4e5-b8b7d6a79ac6.png?alt=media&token=cd30a215-1e39-45eb-b2aa-6abdb8da564b",
+      "demo_link": "https://roytube.netlify.app/",
+      "github_link": "https://github.com/abhishek-Roy22/RoyTube"
+    }
+  ]
+}

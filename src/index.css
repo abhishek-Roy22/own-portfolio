@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-theme {
+  @apply bg-slate-800 text-slate-100;
+}
+
+.light-theme {
+  @apply bg-slate-100 text-slate-800;
+}
