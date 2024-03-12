@@ -22,7 +22,7 @@ const Projects = () => {
     <div className={style.projectContainer}>
       {error && <p className={style.error}>{error}</p>}
       {isLoading && <p className={style.loading}>Loading...</p>}
-        {data && <ProjectList projects={data} />}
+        {data && <ProjectList projects={data.products} />}
     </div>
   );
 };
