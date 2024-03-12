@@ -12,7 +12,7 @@ const style = {
 const Projects = () => {
   const [user] = useAuthState(auth);
 
-  const { data, error, isLoading } = useFetch('http://localhost:3000/products');
+  const { data, error, isLoading } = useFetch('https://abhishek-roy22.github.io/projects-data/db.json');
 
   if (!user) {
     return <p className={style.error}>Sorry, But you are not logged In:)</p>
