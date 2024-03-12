@@ -14,15 +14,15 @@ const Projects = () => {
 
   const { data, error, isLoading } = useFetch('http://localhost:3000/products');
 
+  if (!user) {
+    return <p className={style.error}>Sorry, But you are not logged In:)</p>
+  }
+
   return (
     <div className={style.projectContainer}>
       {error && <p className={style.error}>{error}</p>}
       {isLoading && <p className={style.loading}>Loading...</p>}
-      {user ? (
-        data && <ProjectList projects={data} />
-      ) : (
-        <p className={style.error}>Sorry sir, You are not logged In:)</p>
-      )}
+        {data && <ProjectList projects={data} />}
     </div>
   );
 };
