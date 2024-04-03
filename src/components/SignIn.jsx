@@ -10,7 +10,16 @@ const handleClick = () => {
 const SignIn = () => {
   return (
     <div>
-      <GoogleButton onClick={handleClick} />
+      <GoogleButton label="Google"
+        style={{
+          width: '150px',
+          borderRadius: '4px',
+          padding: '4px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-around',
+          cursor: 'pointer',
+        }} onClick={handleClick} />
     </div>
   );
 };
